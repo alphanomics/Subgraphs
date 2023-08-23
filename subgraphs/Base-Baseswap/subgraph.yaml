@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: BaseSwap is a decentralized protocol for automated token exchange on Base Network.
-repository: https://github.com/msilucifer/baseswap-subgraph
+repository: https://github.com/alphanomics/Subgraphs
 schema:
   file: ./schema.graphql
 dataSources:

@@ -1,14 +1,14 @@
 {
   "name": "baseswap-subgraph",
   "version": "1.0.0",
-  "repository": "git@github.com:msilucifer/baseswap-subgraph.git",
+  "repository": "git@github.com:alphanomics/Subgraphs.git",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
-    "create-local": "graph create msilucifer/baseswap-subgraph --node http://127.0.0.1:8020",
-    "deploy-local": "graph deploy msilucifer/baseswap-subgraph --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
-    "deploy": "graph deploy msilucifer/baseswap-subgraph --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
+    "create-local": "graph create alphanomics/Subgraphs --node http://127.0.0.1:8020",
+    "deploy-local": "graph deploy alphanomics/Subgraphs --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
+    "deploy": "graph deploy alphanomics/Subgraphs --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
     "deploy-staging": "graph deploy $THE_GRAPH_GITHUB_USER/$THE_GRAPH_SUBGRAPH_NAME /BaseSwap --ipfs https://api.staging.thegraph.com/ipfs/ --node https://api.staging.thegraph.com/deploy/"
   },
   "devDependencies": {
